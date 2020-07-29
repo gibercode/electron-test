@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  height: 100%;
+}
+._menu {
+  background-color: #212121;
+  width: 250px;
+  height: 100vh;
+}
+
+._list {
+  color: #fff;
+  padding-top: 2rem;
+}
+
+._list > li {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+._list > li:hover {
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: red;
+}
+
+._body {
+  background:lightgray;
+  width: calc(100% - 250px);
+}
+
+._main {
+  display: flex;
+}

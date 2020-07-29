@@ -1,0 +1,2 @@
+export const GET_WALLETS = 'GET_WALLETS';
+export const GET_WALLETS_ASYNC = 'GET_WALLETS_ASYNC';
